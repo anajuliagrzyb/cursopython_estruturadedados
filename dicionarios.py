@@ -21,3 +21,20 @@ print(coleta.items())
 
 for nome, quantidade in coleta.items():
     print(f'nome: {nome}, quantidade de produtos: {quantidade}')
+
+print('\n')
+print("*******************************")
+print("EXERCICIO DICIONÁRIO")
+alunos = {}
+soma = 0
+nome = input('Digite o nome: ')
+
+for _ in range(1, 4):
+    nota = float(input('Digite a nota: '))
+    alunos[nome] = nota
+    alunos.values()
+    print(alunos)
+
+for nota in alunos.values():
+    soma += nota
+    print('Média: ', soma/3)

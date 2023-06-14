@@ -17,8 +17,23 @@ l1.remove('casa')
 print(l1)
 
 del(l1)
-print(l1)
+#print(l1)
 
 for item in l2_2:
     print(item)
+
+print("*******************************")
+
+print("EXERCICIO LISTA")
+soma = 0
+lista = []
+for i in range(1, 6):
+    num = int(input("Digite um número: "))
+    lista.append(num)
+    print(lista)
+
+for i in range(len(lista)):
+    soma += lista[i]
+    print(soma)
+
 

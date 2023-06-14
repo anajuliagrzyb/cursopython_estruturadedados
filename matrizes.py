@@ -12,3 +12,18 @@ for i in range(matriz.shape[0]):
     for j in range(matriz.shape[1]):
         print(matriz[i][j])
 
+print('\n')
+print("*******************************")
+print("EXERCICIO MATRIZ")
+soma = 0
+import numpy as np
+matriz = np.array([[3, 4, 1],
+                   [3, 1, 5]])
+matriz.shape
+for i in range(matriz.shape[0]):
+    for j in range(matriz.shape[1]):
+        soma += matriz[i][j]
+        print(soma)
+
+
+

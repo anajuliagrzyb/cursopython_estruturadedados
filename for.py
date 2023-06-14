@@ -30,3 +30,20 @@ for i in range(0, 5):
     for j in range(0, 3):
         print(j)
     print()
+print("*******************************")
+
+print('\n')
+print('EXERCICIO')
+print("SOMA EM FOR")
+soma = 0
+for i in range(1, 6):
+    num = int(input("Digite sua nota: "))
+    soma = soma + num
+    media = soma/5
+print(media)
+
+print("TABUADA EM FOR")
+tab = int(input("Digite a tabuada que deseja: "))
+for i in range(1, 11):
+    tabuada = tab * i
+    print(f"{tab} X {i} = {tabuada} ")
